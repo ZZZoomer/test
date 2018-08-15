@@ -6,3 +6,9 @@ int i;
 //printf ("Hello world!");
 printf ("%d", i);
 }
+void new()
+{
+int i;
+//printf ("Hello world!");
+printf ("%d", i);
+}
