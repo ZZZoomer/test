@@ -1,10 +1,10 @@
-#include <stdlib.h>
-#include <stdio.h>
+class C {
+public:
+  int x;
+};
 
-int main()
-{
-    char s[255];
-    s[255] = '\0';
 
-    return EXIT_SUCCESS;
+void test() {
+  C *pc = 0;
+  int k = pc->x; // warn
 }
