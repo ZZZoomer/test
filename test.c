@@ -1,10 +1,8 @@
-class C {
-public:
-  int x;
-};
+#include <stdio.h>
 
-
-void test() {
-  C *pc = 0;
-  int k = pc->x; // warn
+void main()
+{
+int i;
+//printf ("Hello world!");
+printf ("%d", i);
 }
